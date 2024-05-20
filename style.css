@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+.home{
+    background:url(img/bg1.png);
+}
+.home h1{
+    color: #ff5e00;
+}
+.home p{
+    color: white;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0, 0,.5);
+    background: black;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: #ff5e00 !important;
+}
+
+#navbarSupportedContent a{
+    color: #fff;
+    border-bottom: 2px solid transparent;
+
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #ff5e00;
+
+}
+#navbarSupportedContent  button{
+    background-color: #ff5e00;
+    color: #fff !important;
+    width: 5rem;
+    
+
+}
+#learn{
+    color: white;
+    background-color:  #ff5e00;
+    border-color:#ff5e00 ;
+}
+#showcase{
+    background:url(img/bg1.png);
+}
+#showcase h2{
+    color: #ff5e00;
+}
+#about h2 {
+    color:#ff5e00;
+}
+#about h4 {
+    color:#ff5e00;
+}
+
+#contact{
+    background:url(img/bg1.png);
+}
+#contact h2{
+    color:#ff5e00;
+    letter-spacing: 3px;
+   
+}
+
+#about{
+    background:url(img/bg1.png);
+}
+#about{
+    color: white;
+}
+#submit{
+    background-color:#ff5e00 ;
+}
